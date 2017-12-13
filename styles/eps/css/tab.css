@@ -1,0 +1,90 @@
+DIV {
+	margin: auto;
+}
+
+.title {
+	background: url("../images/mg-bg.gif");
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 31px;
+	float: left;
+}
+
+.label {
+	margin-left: 2px;;
+	height: 31px;
+	float: left;
+}
+
+.label_L_1 {
+	background: url("../images/an-left.gif");
+	background-repeat: repeat-x;
+	width: 3px;
+	height: 31px;
+	float: left;
+}
+
+.label_C_1 {
+	background: url("../images/an-mid.gif");
+	background-repeat: repeat-x;
+	height: 31px; 
+	float: left; 
+	text-align: center;
+}
+
+.label_R_1 {
+	background: url("../images/an-right.gif");
+	background-repeat: repeat-x;
+	width: 3px;
+	height: 31px;
+	float: left;
+}
+
+.label_C_text_1 {
+	height: 25px;
+	line-height: 25px;
+	margin-top: 5px;
+	font-size: 13px;
+	color: #FFF;
+	font-weight:bold;
+}
+
+.label_Fault {
+	background: url("../images/anh-left.gif");
+	background-repeat:repeat-x;
+	height: 31px;
+	float: left;
+	margin-left: 2px;
+	cursor: pointer;
+}
+
+.label_L_2 {
+	background: url("../images/anh-mid.gif");
+	background-repeat: repeat-x;
+	width: 10px;
+	height: 31px;
+	float: left;
+}
+
+.label_C_2 {
+	background: url("../images/anh-right.gif");
+	background-repeat: repeat-x;
+	height: 31px;
+	float: left;
+	text-align: center;
+}
+
+.label_R_2 {
+	background: url("../images/an-mid.gif");
+	background-repeat:repeat-x;
+	width: 10px;
+	height: 31px;
+	float: left;
+}
+
+.content{
+	border: 1px solid #6886BC;
+	width: 100%;
+	height: 100px;
+}
+.contenttit{ width:760px; border:1px solid #CCC; background:#FFF; padding:10px; }

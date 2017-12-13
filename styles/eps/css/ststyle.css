@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { font-family:"宋体","Arial";
+	font:12px;
+	color: #333;
+	background-color:#FFF;
+	margin: 0px; padding:0px;
+	font-size: 12px; text-align:center; 
+}
+
+a {cursor:hand;}
+a:link,a:visited,a:active { color: #369; text-decoration: none; FONT-SIZE: 12px; cursor:hand; }
+a:hover { text-decoration:none; color:#69F; cursor:hand; }
+.titlebt {
+	font-size: 12px;
+	line-height: 30px;
+	font-weight:normal;
+	color: #063a54;
+
+}
+
+.sec1 {
+	CURSOR: hand;
+	COLOR: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	border: 1px solid #CCCCCC;
+	background-image: url(../images/right_smbg.jpg);
+	background-repeat: repeat-x;
+}
+.sec2 {
+	FONT-WEIGHT: bold;
+	CURSOR: hand;
+	COLOR: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	background-color:#E5E5E5;
+	border:1px solid #F5F5F5;
+}
+
+
+.wztab{width:99%;  background:url(../images/mbg.jpg) repeat-x; height:30px; border:1px solid #CCC; float:left; }
+.dhtab{width:99%;   height:30px; float:left; }
+.red{color:#FF0000; font-size:12px;}
+.inputzc{ width:200px; height:18px; background-color:#F7F7F7; padding-left:2px; margin-left:5px; border:1px solid #CCC;}
+
+p{ font-family:"宋体","Arial";
+	font:12px;
+	font-size: 12px;
+}
+td{ font-family:"宋体","Arial";
+	font:12px;
+	font-size: 12px;
+}

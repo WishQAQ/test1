@@ -1,0 +1,247 @@
+/* CSS Document */ /* all */
+* {
+	margin: 0px;
+}
+
+body {
+	font-size: 12px;
+}
+
+.all {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+.left {
+	float: left;
+	overflow: hidden;
+	display: inline;
+}
+
+.right {
+	float: right;
+	overflow: hidden;
+	display: inline;
+}
+
+.text12_1 {
+	color: #333;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	margin: 0px auto;
+	clear: both;
+	float: left;
+}
+
+/**top bar*/
+.topTar {
+	background-image: url(../images/left_2.gif);
+	background-repeat: repeat-x;;
+	background-position: top;
+	height: 28px;;
+}
+
+.topTar_con {
+	margin-top: 3px;
+	line-height: 28px;
+}
+
+.topTar_list_bg {
+	background-image: url(../images/left_2.gif);
+	background-repeat: repeat-x;;
+	background-position: top;
+	height: 28px;;
+}
+
+.topTar_tab_current {
+	background-position: top;
+	height: 28px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.topTar_tab_default {
+	background-position: top;
+	height: 28px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+/**
+.topTar_tab_L {
+	background-image: url(../tab/images/tab_12.gif);
+	background-repeat: no-repeat;;
+	background-position: top;
+	width: 15px;
+	height: 28px;;
+}
+.topTar_tab_M {
+	background-image: url(../tab/images/bt_bg1.gif);
+	background-repeat: repeat-x;;
+	background-position: top;
+	height: 22px;
+	border: 1px solid #7BCCB8;
+}
+*/
+
+/**
+.topTar_tab_R {
+	background-image: url(../tab/images/tab_16.gif);
+	background-repeat: no-repeat;;
+	background-position: top;
+	width: 15px;
+	height: 28px;;
+}
+
+*/
+.topTar_tab_text {
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 22px;
+	color: #000000;
+	font-size: 12px; font-weight:normal;
+	text-decoration: none;
+}
+.topTar_tab_text a,.topTar_tab_text a:hover,.topTar_tab_text a:active,.topTar_tab_text a:visited{
+	color: #036;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration:none;
+}
+.loginbg {
+	width: 400px;
+	height: 337px;
+	background: url(../images/login_bg.jpg) repeat-x;
+	margin: 0px auto;
+	margin-top: 193px;
+}
+
+.lg_text {
+	color: #033D65;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.lg_input {
+	width: 120px;
+}
+
+/* top */
+.top_bg {
+	background: url(../images/top_bg02.gif) repeat-x;
+	height: 67px;
+}
+
+/* left */
+.frame_left {
+	width: 163px;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+
+.admin_inf {
+	background: url(../images/left_2.gif) repeat-x;
+	height: 50px;
+	width: 177px;
+	display: block;
+	float: left;
+	padding: 3px;
+	font-size: 12px;
+	color: #000;
+	float: left;
+	clear: both;
+}
+
+.left_t1 {
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000;
+	border-bottom:1px dotted #999;
+	text-decoration: none;
+	margin-left:10px;
+	text-align:left;
+	height: 18px;
+	width: 145px;
+	padding-left: 0px;
+	padding-top: 10px;
+	display: block;
+	margin-top: 2px;
+	clear: both;
+	cursor: pointer;
+}
+
+.left_t1 a {
+	font-size: 12px;
+	font-weight:normal;
+	color: #006;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.left_t_k {
+	width: 176px;
+	height: auto;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	background-color: #FFFFFF;
+	float: left;
+	clear: both;
+}
+
+.left_t2 {
+	background: url(../images/left_4.gif) no-repeat;
+	height: 22px;
+	padding-left: 25px;
+	padding-top: 8px;
+	color: #00385F;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.left_t2 a {
+	color: #003F5F;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.left_t3 {
+	background: url(../images/left_42.gif) no-repeat;
+	height: 22px;
+	padding-left: 25px;
+	padding-top: 8px;
+	color: #00385F;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.left_t3 a {
+	color: #003F5F;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.left_t31 {
+	background: url(../images/97.gif) no-repeat 16px 2px;
+	height: 18px;
+	padding-left: 25px;
+	padding-top: 3px;
+	color: #1F82B5;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.left_t31 a {
+	color: #1F82B5;
+	font-size: 12px;
+	text-decoration: none;
+}
+/* bottom */

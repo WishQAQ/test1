@@ -1,0 +1,503 @@
+/*====== Stylesheet for norm_1 ======*\
+     Object: norm_1_style.css
+     Author: Rita
+	 Last Update: 2008-12-10
+\*======================================*/
+	/******************** 1.html ********************/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font: 12px "宋体", Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	background: #fff;
+	text-align: center;
+	margin: 5px;
+}
+
+.listtable {
+	width: 100%;
+	border:none;
+	text-align:center;
+}
+
+.listtable th {
+	background: url(../images/title_bg1.gif) repeat-x;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	height: 24px;
+	color: #15418a;
+	cursor:pointer;
+}
+
+.listtable td {
+	font-size: 12px;
+	height: 25px;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	text-align: left;
+}
+
+.tabindex {
+	height: 24px;
+	color: #15418a;
+	text-align: left;
+	padding: 0px 10px 0 40px;
+	display: inline;
+	font-weight:bold;
+}
+
+
+/*添加按钮*/
+.button_add {
+	background: url(../images/add.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+}
+
+/*新增按钮*/
+.button_shenqing{background:url(../images/add.png) no-repeat #eef7ff; background-position:center left; width: 60px; height: 22px; border-top: 1px solid #28b703; border-right: 2px solid #077900; border-bottom: 2px solid #077900; border-left: 1px solid #28b703; padding-top: 2px; padding-left:10px; cursor:hand; color:#000000;} 
+
+
+/*查询按钮*/
+.button_search {
+	background: url(../images/search.gif) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+	font-size:12px;
+}
+
+/*删除按钮*/
+.button_delete {
+	background: url(../images/delete.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*发送消息按钮*/
+.button_send {
+	background: url(../images/sfg.gif) no-repeat #eef7ff;
+	background-position: center left;
+	width: 80px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*选择按钮*/
+.button_select {
+	background: url(../images/select.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*重置按钮*/
+.button_reset {
+	background: url(../images/c.gif) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #15418a;
+	font-size:12px;
+}
+
+/*启用按钮*/
+.button_start {
+	background: url(../images/b.gif) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #15418a;
+	font-size:12px;
+}
+
+/*启用按钮*/
+.button_excel {
+	background: url(../images/excel.jpg) no-repeat #eef7ff;
+	background-position: center left;
+	width: 85px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #15418a;
+	font-size:12px;
+}
+
+/*启用按钮*/
+.button_word {
+	background: url(../images/word.jpg) no-repeat #eef7ff;
+	background-position: center left;
+	width: 100px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #15418a;
+	font-size:12px;
+}
+
+/*停用按钮*/
+.button_stop {
+	background: url(../images/stop.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*保存按钮*/
+.button_save {
+	background: url(../images/a.gif) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #15418a;
+	font-size:12px;
+}
+
+/*关闭按钮*/
+.button_close {
+	background: url(../images/close.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+}
+
+/*日志按钮*/
+.button_bug {
+	background: url(../images/bug.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*返回按钮*/
+.button_back {
+	background: url(../images/back.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*审核通过按钮*/
+.button_ok {
+	background: url(../images/ok.gif) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*驳回按钮*/
+.button_reback {
+	background: url(../images/reback.gif) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+}
+
+/*改变状态按钮*/
+.button_change {
+	background: url(../images/change.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 90px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*放入历史按钮*/
+.button_puthistory {
+	background: url(../images/puthistory.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 100px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+/*打印按钮*/
+.button_print {
+	background: url(../images/print.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 90px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	font-size:12px;
+}
+
+/*消息转发按钮*/
+.button_revert {
+	background: url(../images/revert.png) no-repeat #eef7ff;
+	background-position: center left;
+	width: 60px;
+	height: 22px;
+	border-top: 1px solid #28b703;
+	border-right: 2px solid #077900;
+	border-bottom: 2px solid #077900;
+	border-left: 1px solid #28b703;
+	padding-top: 2px;
+	padding-left: 10px;
+	cursor: hand;
+	color: #000000;
+	font-size:12px;
+}
+
+.selectOne {
+	width: 152px;
+	height: 20px;
+	font-size:12px;
+}
+
+.tableBorderBlue {
+	background-color: #eef7ff;
+	border: 1px solid #679ddb;
+	margin-bottom:10px;
+	text-align: center;
+	width: 100%;
+	font-weight:normal;
+}
+
+.number {
+	height: 30px;
+	margin: 5px 0;
+	border: 1px solid #d6d6d6;
+	background: #f5f5f5;
+	font-weight:normal;
+}
+
+.info_name {
+	background-color: #f5f5f5;
+	font-size: 12px;
+	font-weight:normal;
+	border: 1px solid #d6d6d6;
+	white-space: nowrap;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	text-align-last: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline;
+	height: 30px;
+	line-height: 30px;
+}
+
+
+.info_name_upDown {
+	background-color: #f5f5f5;
+	font-size: 12px;
+	font-weight: normal;
+	border: 1px solid #d6d6d6;;
+	text-align : center;
+	height: 30px;
+	line-height: 30px;
+	writing-mode: tb-rl; 
+	padding-top: 13px;
+	padding-bottom: 13px;
+	
+	
+}
+
+.info_con {
+	font-size: 12px;
+	border: 1px solid #d6d6d6;
+	display: inline;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;	
+	padding-right: 10px;
+}
+
+
+.info_cons {
+	font-size: 12px;
+	border: 1px solid #d6d6d6;
+	display: inline;
+	height: 30px;
+	line-height: 15px;
+	text-align: left;
+	padding-left: 10px;	
+	padding-right: 10px;
+}
+
+.tab_label {
+	font-size: 14px;
+	font-weight: solid;
+	text-align: left;
+	vertical-align: middle;
+	width: 90%;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 10px;
+	background-color: #eef7ff;
+	cursor: pointer;
+}
+
+input {
+	border: 1px solid #b0c4db;
+	background: #fbfcff;
+	color: #4890e7;
+	font-size:12px;
+}
+
+select {
+	border: 1px solid #b0c4db;
+	background: #fbfcff;
+	color: #4890e7;
+	padding: 1px;
+	font-size:12px;
+}
+
+
+a:link { text-decoration: none;color: blue} 
+a:active { text-decoration:blink;color: blue} 
+a:hover { text-decoration:underline;color: red}  
+a:visited { text-decoration: none;color: blue} 
